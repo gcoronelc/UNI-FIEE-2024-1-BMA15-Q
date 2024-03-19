@@ -19,13 +19,13 @@
 
 ## Delegado
 
-- Nombre: 
-- Correo: 
+- Nombre: richard junior sotelo baldeon
+- Correo: richard.sotelo.b@uni.pe
 
 ## Subdelegado
 
-- Nombre: 
-- Correo: 
+- Nombre: Fernando Manuel Portilla Salvador
+- Correo: fernando.portilla.s@uni.pe
 
 # RECURSOS UTILES
 
