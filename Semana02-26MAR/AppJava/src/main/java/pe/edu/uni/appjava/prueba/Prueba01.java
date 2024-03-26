@@ -17,6 +17,7 @@ public class Prueba01 {
 		System.out.println("Suma: " + suma);
 		System.out.println("Resta: " + resta);
 		System.out.println("Maximo: " + maxi);
+
 	}
 	
 }

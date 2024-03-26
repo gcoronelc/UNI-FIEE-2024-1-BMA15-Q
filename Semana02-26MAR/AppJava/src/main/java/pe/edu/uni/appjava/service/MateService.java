@@ -10,7 +10,7 @@ public class MateService {
 		// Reporte
 		return suma;
 	}
-	
+		
 	public int restar(int n1, int n2){
 		//variables
 		int resta; 
