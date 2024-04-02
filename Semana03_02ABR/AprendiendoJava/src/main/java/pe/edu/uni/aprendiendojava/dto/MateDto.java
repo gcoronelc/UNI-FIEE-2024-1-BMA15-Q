@@ -1,5 +1,11 @@
 package pe.edu.uni.aprendiendojava.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+@Data @NoArgsConstructor @AllArgsConstructor @ToString
 public class MateDto {
 	// Datos
 	private int num1;
@@ -8,39 +14,25 @@ public class MateDto {
 	private int suma;
 	private int resta;
 
-	public int getNum1() {
-		return num1;
-	}
+	/**
+	 * Constructor por defecto.
+	 * Inicializa el objeto
+	 */
+//	public MateDto() {
+//		this.num1 = 70;
+//		this.num2 = 20;
+//	}
 
-	public void setNum1(int num1) {
+	/**
+	 * Constructor adicional.
+	 * @param num1 Numero 1.
+	 * @param num2 Numero 2.
+	 */
+	public MateDto(int num1, int num2) {
 		this.num1 = num1;
-	}
-
-	public int getNum2() {
-		return num2;
-	}
-
-	public void setNum2(int num2) {
 		this.num2 = num2;
+		this.suma = 0;
+		this.resta = 0;
 	}
-
-	public int getSuma() {
-		return suma;
-	}
-
-	public void setSuma(int suma) {
-		this.suma = suma;
-	}
-
-	public int getResta() {
-		return resta;
-	}
-
-	public void setResta(int resta) {
-		this.resta = resta;
-	}
-	
-	
-	
-	
+		
 }

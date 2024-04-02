@@ -1,13 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package pe.edu.uni.aprendiendojava.service;
 
-/**
- *
- * @author PROFESOR
- */
+import pe.edu.uni.aprendiendojava.dto.MateDto;
+
 public class MateService {
+
+	public MateDto procesar(MateDto dto){
+		// Variables
+		int suma;
+		int resta;
+		// Proceso
+		suma = dto.getNum1() + dto.getNum2();
+		resta = dto.getNum1() - dto.getNum2();
+		// Reporte
+		dto.setSuma(suma);
+		dto.setResta(resta);
+		return dto;
+	}
+
 	
 }
